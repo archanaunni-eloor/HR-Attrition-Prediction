@@ -11,7 +11,7 @@ st.write("Enter Employee details to predict Attrition trend.")
 
 
 age = st.slider("Age", 18, 60, 30)
-income = st.number_input("Monthly Income (Range Rs 1000 - 100000", min_value=1000, max_value=100000, value=5000)
+income = st.number_input("Monthly Income (Range Rs 1000 - 100000)", min_value=1000, max_value=100000, value=5000)
 overtime = st.selectbox("Overtime", ["Yes", "No"])
 job_level = st.slider("Job Level", 1, 5, 2)
 
