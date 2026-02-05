@@ -6,7 +6,7 @@ import pandas as pd
 model = joblib.load('attrition_model.pkl')
 model_columns = joblib.load('model_columns.pkl')
 
-st.title("IBM HR Attrition Prediction System (87.76% Accuracy) by Unni R")
+st.title("Emplyee Attrition Prediction System (87.76% Accuracy) by Unni R")
 st.write("Enter Employee details to predict Attrition trend.")
 
 
