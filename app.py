@@ -31,5 +31,5 @@ if st.button("Predict"):
         st.error("☹️ High Risk: This employee is likely to leave.")
     else:
         st.balloons()
-        st.success("🙂 Low Risk: This employee is likely to stay.")
+        st.success("💪 Low Risk: This employee is likely to stay.")
         
